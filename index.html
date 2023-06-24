@@ -28,7 +28,6 @@
 
 <body>
   <div class="header">
-
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="/images/logo.svg" alt="logo" /></a>
@@ -37,96 +36,121 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
 
-          </ul>
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-success" type="submit">Contact</button>
-          </form>
+          <div class="d-flex ms-auto" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+  
+            </ul>
+            <button class="contact-btn" type="submit">Contact</button>
+          </div>
         </div>
       </div>
     </nav>
-    <h1> We are creatives  </h1>
+    <h1 class="text-header"> We are creatives </h1>
+    <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow "/>
 
   </div>
   </div>
 
-  <div class="container text-center">
-
-
-
+  <div class="container ">
     <div class="row">
-      <div class="col-6">
-        <h2>Transform your brand</h2>
-        <p>We are a full-service creative agency specializing in helping brands grow fast.
-          Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <a> Learn more </a>
+      <div class="col-lg-6 col-sm-12  transform-left">
+        <div class="text-body">
+          <h2>Transform your brand</h2>
+          <p>We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a> Learn more </a>
+        </div>
+
       </div>
-      <div class="col-md-6 col-sm-12">
-        <img src="/images/desktop/image-transform.jpg" alt="transform" />
+      <div class="col-lg-6 col-sm-12 transform-right">
+        <img src="/images/desktop/image-transform.jpg" alt="transform" class="transform-img" />
       </div>
-      <div class="col-md-6 col-sm-12">
-        <img src="/images/desktop/image-stand-out.jpg" alt="standout" />
+      <div class="col-lg-6 col-sm-12 standout-left">
+        <img src="/images/desktop/image-stand-out.jpg" alt="standout" class="standout-img" />
       </div>
-      <div class="col-md-6 col-sm-12">
-        
-        <h2 class="text-left">Stand out to the right audience</h2>
+      <div class="col-lg-6 col-sm-12 standout-right">
+        <div class="text-body">
+        <h2 >Stand out to the right audience</h2>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
           build and extend your brand in digital places.</p>
         <a>Learn more</a>
+        </div>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-lg-6 col-sm-12 design-left">
         <img src="/images/desktop/image-graphic-design.jpg" alt="design" />
+        <div class="text-design">
         <h2>Graphic design</h2>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential
           clients’ attention.</p>
+        </div>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12 photography-right">
         <img src="/images/desktop/image-photography.jpg" alt="design" />
+        <div class="text-photography ">
         <h2>Photography</h2>
-       <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p> 
-
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+          </div>  
       </div>
     </div>
 
-
-
-
-
-
-    Client testimonials
-
-    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-    Emily R.
-    Marketing Director
-
-    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
-    experience.
-    Thomas S.
-    Chief Operating Officer
-
-    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-    Jennie F.
-    Business Owner
-
-    About
-    Services
-    Projects
-    Contact
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+    <div class="testimonials-container">
+      <h2 class="text-center"> Client testimonials</h2>\
     </div>
+
+    <div class="testimonials d-flex">
+      <div>
+        <image src="./images/image-emily.jpg" alt="image-emily" class="avatar">
+          <p> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.</p>
+          <p>Emily R.</p>
+          <p> Marketing Director</p>
+      </div>
+      <div>
+        <image src="./images/image-thomas.jpg" alt="image-emily" class="avatar">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable
+            experience.</p>
+          <p>Thomas S.</p>
+          <p>Chief Operating Officer</p>
+      </div>
+      <div>
+        <image src="./images/image-jennie.jpg" alt="image-emily" class="avatar">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p>Jennie F.</p>
+          <p>Business Owner</p>
+      </div>
+    </div>
+
+    <div class="bottom d-flex">
+      <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles" class="bottom-img"/>
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="orange"  class="bottom-img" />
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="cone"  class="bottom-img" />
+      <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes"  class="bottom-img"/>
+
+    </div>
+    <div class="footer">
+      <img src="./images/logo-bottom.svg" alt="logo-bottom" />
+      <div class="d-flex   justify-content-sm-center justify-content-center ">
+        <p class="p-4"> About</p>
+        <p class="p-4">Services</p>
+        <p class="p-4">Projects</p>
+      </div>
+
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"></script>

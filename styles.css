@@ -1,16 +1,138 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&display=swap');
 
 .header{
     background-image: url(./images/desktop/image-header.jpg);
-    height: 50rem;
+    height: 100vh;
     background-size: cover;
     background-position: bottom;
+    text-align: center;
+}
+.container{
+    --bs-gutter-x:0rem;
+}
+
+.contact-btn{
+    color:black;
+    background-color: white;
+    border-radius: 25px;
+   height:50px;
+   width:100px;
+   font-family: 'Fraunces', serif;
+   border:none;
+
+}
+a.nav-link{
+    color:white;
+    font-family: 'Barlow', sans-serif;
+}
+.text-header{
+    text-align: center;
+    color:white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 h2{
-    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
 }
 
 p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.text-body{
+    width:70%
+}
+.text-body.h2{
+    font-size: 3rem;
+}
+.transform-left{
+    width:max-content;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.transform-right{
+    width: 100%;
+    background-color: hsl(51, 100%, 49%);
+}
+.transform-img{
+    object-fit: fill
+}
+
+.standout-left{
+    background-color: hsl(7, 99%, 70%);
+}
+.standout-img{
+    width:100%;
+    height:auto;
+}
+.standout-right{
+    width:max-content;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.text-design{
+    position: absolute;
+    width:50%;
+    top: 400px;
+    left:200px
+}
+.design-left{
+    width:100%;
+    text-align: center;
+    background-color: rgb(160, 221, 206);
+    position: relative;
+}
+.text-photography{
+    position: absolute;
+    width:50%;
+    top: 400px;
+    left:200px
+}
+
+.photography-right{
+    width:100%;
+    background-color: rgb(99, 205, 255);
+    position: relative;
+    text-align: center;
+
+}
+
+.testimonials{
+    height:500px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.avatar{
+    border-radius:50%;
+    height:100px;
+    width:100px;
+}
+.bottom{
+    width: 100%;
+}
+.bottom-img{
+    max-width: 25%;
+    max-height: 50%;
+    display: flex;
+}
+
+.footer{
+    background-color: rgb(160, 221, 206);
+    height: 500px;
+    width: 100%;
+
+}
+.logo-bottom{
+    color:hsl(167, 40%, 24%);
 }
 
