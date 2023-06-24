@@ -9,13 +9,14 @@
     text-align: center;
 }
 
-.container {
-    --bs-gutter-x: 0rem;
-}
-.logo{
-    height:40px;
+
+.logo {
+    height: 40px;
     margin-left: 20%;
+    padding-top: 5%;
+
 }
+
 .contact-btn {
     color: black;
     background-color: white;
@@ -26,14 +27,23 @@
     border: none;
 
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background-color: rgb(124, 213, 255);
-    color:white
+    color: white
+}
+
+.navbar-nav {
+    padding-top: 5%;
 }
 
 a.nav-link {
     color: white;
     font-family: 'Barlow', sans-serif;
+}
+
+.arrow {
+    margin-top: 2%;
 }
 
 .text-header {
@@ -74,13 +84,28 @@ p {
 
 .transform-left {
     width: max-content;
-    text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
+.transform-learn-link{
+    font-family: 'Fraunces', serif;
+    text-decoration-color: hsl(51, 95%, 84%);
+    color:black;
+    text-decoration-thickness:5px;
+    font-size:0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
 
+}
+.transform-learn-link:hover{
+    text-decoration-color: hsl(51, 100%, 49%);
+
+}
+a{
+    text-align: center;
+}
 .transform-right {
     background-color: hsl(51, 100%, 49%);
 }
@@ -108,12 +133,26 @@ p {
     align-items: center;
     align-content: center;
 }
+.standout-learn-link{
+    font-family: 'Fraunces', serif;
+    text-decoration-color: hsl(7, 82%, 83%);
+    color:black;
+    text-decoration-thickness:5px;
+    font-size:0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.standout-learn-link:hover{
+    text-decoration-color: hsl(7, 99%, 70%);
 
+}
 .text-design {
     position: absolute;
     width: 50%;
-    top: 400px;
-    left: 200px
+    top: 330px;
+    left: 180px;
+    display: block;
+
 }
 
 .design-left {
@@ -132,8 +171,13 @@ p {
 .text-photography {
     position: absolute;
     width: 50%;
-    top: 400px;
-    left: 200px
+    top: 330px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+
 }
 
 .photo-image {
@@ -206,12 +250,14 @@ p {
     color: hsl(168, 34%, 41%);
     padding-top: 10%;
 }
-a.links{
+
+a.links {
     text-decoration: none;
-    color:hsl(168, 34%, 41%);
+    color: hsl(168, 34%, 41%);
 }
-a.links:hover{
-    color:white;
+
+a.links:hover {
+    color: white;
 }
 
 .logo-bottom {
@@ -222,25 +268,38 @@ a.links:hover{
 ion-icon {
     color: hsl(168, 34%, 41%);
 }
-ion-icon:hover{
-    color:white;
+
+ion-icon:hover {
+    color: white;
 
 }
 
 @media (max-width: 600px) {
-    .container-fluid{
-        padding-left:0px;
-        padding-right:0px;
+    button.navbar-toggler {
+        margin-right: 0%;
     }
+
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .text-header {
 
         font-size: 2.5rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         margin-top: 10%;
-        margin-bottom: 2%;
     }
-    
+
+    .transform-left {
+        padding: 20% 0% 20% 0%;
+
+    }
+
+    .standout-right {
+        padding: 20% 0% 20% 0%;
+    }
 
     .testimonials {
         flex-direction: column;
@@ -263,6 +322,7 @@ ion-icon:hover{
         max-width: 50%;
         max-height: 50%;
     }
+
     .footer {
         background-color: rgb(160, 221, 206);
         height: 300px;
@@ -270,8 +330,9 @@ ion-icon:hover{
         color: hsl(168, 34%, 41%);
         padding-top: 10%;
     }
-    .design-image{
-        height:400px;
+
+    .design-image {
+        height: 400px;
     }
 
     .text-design {
@@ -280,16 +341,18 @@ ion-icon:hover{
         top: 220px;
         left: 50px
     }
-    .photo-image{
-        height:400px;
+
+    .photo-image {
+        height: 400px;
     }
+
     .text-photography {
         position: absolute;
-        width:80%;
+        width: 80%;
         top: 220px;
         left: 50px
     }
-    
-    
+
+
 
 }
