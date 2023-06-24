@@ -1,138 +1,295 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&display=swap');
 
-.header{
+.header {
     background-image: url(./images/desktop/image-header.jpg);
     height: 100vh;
     background-size: cover;
     background-position: bottom;
     text-align: center;
 }
-.container{
-    --bs-gutter-x:0rem;
-}
 
-.contact-btn{
-    color:black;
+.container {
+    --bs-gutter-x: 0rem;
+}
+.logo{
+    height:40px;
+    margin-left: 20%;
+}
+.contact-btn {
+    color: black;
     background-color: white;
-    border-radius: 25px;
-   height:50px;
-   width:100px;
-   font-family: 'Fraunces', serif;
-   border:none;
+    border-radius: 30px;
+    height: 60px;
+    width: 130px;
+    font-family: 'Fraunces', serif;
+    border: none;
 
 }
-a.nav-link{
-    color:white;
+.contact-btn:hover{
+    background-color: rgb(124, 213, 255);
+    color:white
+}
+
+a.nav-link {
+    color: white;
     font-family: 'Barlow', sans-serif;
 }
-.text-header{
+
+.text-header {
     text-align: center;
-    color:white;
+    color: white;
     font-family: 'Fraunces', serif;
     font-weight: 900;
+    font-size: 3.8rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 2%;
 }
-h2{
+
+h2 {
     font-family: 'Fraunces', serif;
     font-weight: 900;
 }
 
-p{
+p {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
-.text-body{
-    width:70%
-}
-.text-body.h2{
-    font-size: 3rem;
-}
-.transform-left{
-    width:max-content;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.transform-right{
-    width: 100%;
-    background-color: hsl(51, 100%, 49%);
-}
-.transform-img{
-    object-fit: fill
+
+.text-body {
+    width: 70%
 }
 
-.standout-left{
-    background-color: hsl(7, 99%, 70%);
+.text-title {
+    font-size: 2.5rem;
+    font-weight: 900;
 }
-.standout-img{
-    width:100%;
-    height:auto;
+
+.text-title-bottom {
+    font-size: 1.8rem;
+    font-weight: 900;
 }
-.standout-right{
-    width:max-content;
+
+.transform-left {
+    width: max-content;
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-.text-design{
-    position: absolute;
-    width:50%;
-    top: 400px;
-    left:200px
+
+.transform-right {
+    background-color: hsl(51, 100%, 49%);
 }
-.design-left{
-    width:100%;
+
+.transform-img {
+    width: 100%;
+    height: auto;
+}
+
+.standout-left {
+    background-color: hsl(7, 99%, 70%);
+
+}
+
+.standout-img {
+    width: 100%;
+    height: auto;
+}
+
+.standout-right {
+    width: max-content;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text-design {
+    position: absolute;
+    width: 50%;
+    top: 400px;
+    left: 200px
+}
+
+.design-left {
+    width: 100%;
     text-align: center;
     background-color: rgb(160, 221, 206);
     position: relative;
-}
-.text-photography{
-    position: absolute;
-    width:50%;
-    top: 400px;
-    left:200px
+    color: hsl(167, 40%, 24%);
 }
 
-.photography-right{
-    width:100%;
+.design-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-photography {
+    position: absolute;
+    width: 50%;
+    top: 400px;
+    left: 200px
+}
+
+.photo-image {
+    width: 100%;
+    height: auto;
+}
+
+.photography-right {
+    width: 100%;
     background-color: rgb(99, 205, 255);
     position: relative;
     text-align: center;
+    color: hsl(198, 62%, 26%);
 
 }
 
-.testimonials{
-    height:500px;
+.testimonials-header {
+    margin-top: 10%;
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+
+}
+
+.testimonials {
+    height: 500px;
     text-align: center;
     align-content: center;
     align-items: center;
-}
-.avatar{
-    border-radius:50%;
-    height:100px;
-    width:100px;
-}
-.bottom{
-    width: 100%;
-}
-.bottom-img{
-    max-width: 25%;
-    max-height: 50%;
     display: flex;
 }
 
-.footer{
+.testimonial {
+    width: 40%;
+    margin: 2% 5%
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.client-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.job-title {
+    color: hsl(210, 4%, 67%);
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+}
+
+.bottom-img {
+    max-width: 25%;
+    max-height: 50%;
+}
+
+.footer {
     background-color: rgb(160, 221, 206);
     height: 500px;
     width: 100%;
+    color: hsl(168, 34%, 41%);
+    padding-top: 10%;
+}
+a.links{
+    text-decoration: none;
+    color:hsl(168, 34%, 41%);
+}
+a.links:hover{
+    color:white;
+}
+
+.logo-bottom {
+    color: hsl(168, 34%, 41%);
+    height: 30px;
+}
+
+ion-icon {
+    color: hsl(168, 34%, 41%);
+}
+ion-icon:hover{
+    color:white;
 
 }
-.logo-bottom{
-    color:hsl(167, 40%, 24%);
-}
 
+@media (max-width: 600px) {
+    .container-fluid{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .text-header {
+
+        font-size: 2.5rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+    
+
+    .testimonials {
+        flex-direction: column;
+        height: 1000px;
+
+    }
+
+    .testimonial {
+        width: 80%;
+        margin: 2% 5%
+    }
+
+    .bottom {
+        width: 100%;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    .bottom-img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+    .footer {
+        background-color: rgb(160, 221, 206);
+        height: 300px;
+        width: 100%;
+        color: hsl(168, 34%, 41%);
+        padding-top: 10%;
+    }
+    .design-image{
+        height:400px;
+    }
+
+    .text-design {
+        position: absolute;
+        width: 80%;
+        top: 220px;
+        left: 50px
+    }
+    .photo-image{
+        height:400px;
+    }
+    .text-photography {
+        position: absolute;
+        width:80%;
+        top: 220px;
+        left: 50px
+    }
+    
+    
+
+}
